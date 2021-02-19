@@ -1,3 +1,3 @@
-import React from 'react';
+import React, { FC } from 'react';
 
-export const App = () => <div>dggfddrwerwesffhfgh</div>;
+export const App: FC = () => <div>fsdfsdfsdfsdfffgfdgdfghfgh</div>;

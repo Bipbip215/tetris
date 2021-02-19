@@ -8,24 +8,20 @@
   },
   "parser": "@typescript-eslint/parser",
   "extends": [
-    "plugin:@typescript-eslint/recommended",
-    "airbnb"
+    "plugin:@typescript-eslint/recommended"
   ],
   "plugins": [
-            "@typescript-eslint",
-            "react",
-            "react-hooks"
-    ],
+    "import",
+    "react",
+    "react-hooks"
+  ],
+  "env": {
+    "browser": true,
+    "node": true
+  },
   "rules": {
     "no-use-before-define": 0,
     "import/prefer-default-export": 0,
-    "no-undef": 1,
-    "react/jsx-filename-extension": [1,
-      {
-        "extensions": [
-          ".tsx"
-        ]
-      }
-    ]
+    "no-undef": 1
   }
 }
