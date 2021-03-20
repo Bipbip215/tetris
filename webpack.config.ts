@@ -29,7 +29,9 @@ module.exports = {
 
     devServer: {
         port: 3000,
-        hot: true,
-        contentBase: './build'
+        historyApiFallback: true,
+        hotOnly: true,
+        overlay: true,
+        open: true,
     },
 };
