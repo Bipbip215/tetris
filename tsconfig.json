@@ -12,6 +12,7 @@
     "allowSyntheticDefaultImports": true,
     "target": "es6",
     "esModuleInterop": true,
+    "useDefineForClassFields": true,
     "baseUrl": ".",
   },
   "include": [

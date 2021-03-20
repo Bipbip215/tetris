@@ -4,21 +4,16 @@
     "sourceType": "module",
     "ecmaFeatures": {
       "jsx": true
-    }
+    },
+    "project": "./tsconfig.json"
   },
   "parser": "@typescript-eslint/parser",
-  "extends": [
-    "plugin:@typescript-eslint/recommended"
-  ],
+  "extends": "airbnb-typescript",
   "plugins": [
     "import",
     "react",
     "react-hooks"
   ],
-  "env": {
-    "browser": true,
-    "node": true
-  },
   "rules": {
     "no-use-before-define": 0,
     "import/prefer-default-export": 0,

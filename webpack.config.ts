@@ -1,16 +1,16 @@
-const path = require('path');
-const HtmlWebpackPlugin = require('html-webpack-plugin');
+import path = require('path');
+import HtmlWebpackPlugin = require('html-webpack-plugin');
 
 
 module.exports = {
-    entry: path.resolve(__dirname, './app/app.tsx'),
+    entry: path.resolve(__dirname, './app/index.tsx'),
     output: {
         path: path.resolve(__dirname, 'build'),
         filename: '[name].bundle.js'
     },
     devtool: 'source-map',
     resolve: {
-        extensions: ['*', '.js', '.jsx', '.json', '.ts', '.tsx'],
+        extensions: [   '*', '.js', '.jsx', '.json', '.ts', '.tsx'],
     },
 
     node: { fs: 'empty' },
